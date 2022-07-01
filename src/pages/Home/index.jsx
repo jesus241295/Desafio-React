@@ -1,3 +1,14 @@
+//Hooks
+import { useEffect } from "react";
+
+import "./Home.css";
+
+//Components
+import LeftSideBar from "../../components/LsideBar";
+
 export default function Home() {
-  return <h1>estas en Home</h1>;
+  useEffect(() => {
+    console.log("make GET request to backend");
+  });
+  return <LeftSideBar />;
 }

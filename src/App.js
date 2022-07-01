@@ -1,15 +1,20 @@
-// import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
+
+import { Routes, Route } from "react-router-dom";
+
+//Containers
+import AppContainer from "./containers/AppContainer"
+import PostsContainer from "./containers/PostsContainer"
+
 import "./App.css";
-import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <h2>esto es app</h2>
-      <Home />
-    </div>
+    <Routes>
+      <Route path="/" element= {<h3>Welcome</h3>}></Route>
+      <Route path="app" element= {<AppContainer />}>
+        <Route path="posts" element= {<PostsContainer />}/>
+      </Route>
+    </Routes>
   );
 }
 
