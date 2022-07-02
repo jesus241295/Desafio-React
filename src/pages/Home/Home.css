@@ -1,0 +1,149 @@
+/* @charset "utf-8"; */
+.card{
+display:flex;
+flex-direction:column;
+justify-content:end;
+width:280px;
+border: 1px solid lightgray;
+/* box-shadow: 2px 2px 8px 4px #d3d3d3d1; */
+border-radius:15px;
+text-decoration: solid;
+}
+.titulo{
+font-size: 24px;
+color: blue;
+font-weight:bolder;
+
+}
+/* .cardRight{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 170px;
+
+} */
+.card2{
+    display:flex;
+    justify-content:end;
+    width:280px;
+    border-radius:1px;
+    text-decoration: solid;
+    margin-top: 20px;
+    margin-right: 170px;
+    font-size: 20px;
+    height: 50px;
+    text-align: justify;
+    
+    }
+
+.cardsContainer{
+    display: flex;
+    justify-content:end;
+}
+
+.card3{
+    display:flex;
+    justify-content:end;
+    width:280px;
+    border-radius:1px;
+    text-decoration: solid;
+    margin-top: 15px;
+    margin-right: 170px;
+    height: 70px;
+    text-align: justify; 
+}
+.card4{
+    display:flex;
+    justify-content:end;
+    width:280px;
+    border-radius:1px;
+    text-decoration: solid;
+    margin-top: 10x;
+    margin-right: 170px;
+    height: 70px;
+    text-align: justify; 
+}
+
+.card5{
+    display:flex;
+    justify-content:end;
+    width:280px;
+    border-radius:1px;
+    text-decoration: solid;
+    margin-top: 10x;
+    margin-right: 170px;
+    height: 70px;
+    text-align: justify; 
+    
+}
+.card6{
+    display:flex;
+    justify-content:end;
+    width:280px;
+    border-radius:1px;
+    text-decoration: solid;
+    margin-top: 10x;
+    margin-right: 170px;
+    height: 50px;
+    text-align: justify; 
+    
+}
+.card7{
+    display:flex;
+    justify-content:end;
+    width:280px;
+    border-radius:1px;
+    text-decoration: solid;
+    margin-top: 10x;
+    margin-right: 170px;
+    height: 70px;
+    text-align: justify; 
+    
+}
+.card8{
+    display:flex;
+    justify-content:end;
+    width:280px;
+    border-radius:1px;
+    text-decoration: solid;
+    margin-top: 10x;
+    margin-right: 170px;
+    height: 50px;
+    text-align: center; 
+    
+}
+
+.card9{
+    display:flex;
+    justify-content:end;
+    width:280px;
+    border-radius:1px;
+    text-decoration: solid;
+    margin-top: 20px;
+    margin-right: 170px;
+    height: 50px;
+    text-align: left; 
+    font-size:large;
+    
+}
+
+.card10{
+    display:flex;
+    justify-content:end;
+    width:280px;
+    border-radius:1px;
+    text-decoration: solid;
+    margin-top: 10x;
+    margin-right: 170px;
+    height: 50px;
+    text-align: justify; 
+   
+    
+        
+    }
+
+    
+
+
+
+
+
